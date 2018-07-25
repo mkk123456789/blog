@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>hexo项目部署 | RG_aiming</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <meta name="keywords" content="RGaiming" />
+  
+  <meta name="description" content="github 相关设置安装git安装包见群文件 新建ssh key1.在桌面右键选择git bash here2.创建本地ssh key，输入如下命令：1ssh-keygen -t rsa -c &amp;quot;邮箱&amp;quot; 回车，然后记录下ssh的默认保存路劲，3.后续一路回车，知道出现很多泡沫4.打开ssh默认保存路径，找到id-rsa.pub文件，复制里面的内容备用 注册github1.打开">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo项目部署">
+<meta property="og:url" content="http://yoursite.com/2018/07/25/hexo项目部署/index.html">
+<meta property="og:site_name" content="RG_aiming">
+<meta property="og:description" content="github 相关设置安装git安装包见群文件 新建ssh key1.在桌面右键选择git bash here2.创建本地ssh key，输入如下命令：1ssh-keygen -t rsa -c &amp;quot;邮箱&amp;quot; 回车，然后记录下ssh的默认保存路劲，3.后续一路回车，知道出现很多泡沫4.打开ssh默认保存路径，找到id-rsa.pub文件，复制里面的内容备用 注册github1.打开">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-07-25T08:50:30.576Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="hexo项目部署">
+<meta name="twitter:description" content="github 相关设置安装git安装包见群文件 新建ssh key1.在桌面右键选择git bash here2.创建本地ssh key，输入如下命令：1ssh-keygen -t rsa -c &amp;quot;邮箱&amp;quot; 回车，然后记录下ssh的默认保存路劲，3.后续一路回车，知道出现很多泡沫4.打开ssh默认保存路径，找到id-rsa.pub文件，复制里面的内容备用 注册github1.打开">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/pace.min.js"></script>
+  
+
+  
+  
+
+</head>
+
+<body>
+  <div id="container">
+      <header id="header">
+    <div id="banner"></div>
+    <div id="header-outer">
+        <div id="header-menu" class="header-menu-pos animated">
+            <div class="header-menu-container">
+                <a href="/" class="left">
+                    <span class="site-title">RGaiming</span>
+                </a>
+                <nav id="header-menu-nav" class="right">
+                    
+                    <a  href="/">
+                        <i class="fa fa-home"></i>
+                        <span>主页</span>
+                    </a>
+                    
+                    <a  href="/archives">
+                        <i class="fa fa-archive"></i>
+                        <span>归档</span>
+                    </a>
+                    
+                    <a  href="/about">
+                        <i class="fa fa-user"></i>
+                        <span>关于</span>
+                    </a>
+                    
+                </nav>
+                <a class="mobile-header-menu-button">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div id="header-row">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header-info">
+                <div id="header-title">
+                    
+                    <h2>
+                        RGaiming
+                    </h2>
+                    
+                </div>
+                <div id="header-description">
+                    
+                </div>
+            </div>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a title="RGaiming" target="_blank" href="//minhow.com">
+                            <i class="fa fa-home fa-2x"></i></a>
+                    
+                        <a title="Github" target="_blank" href="//github.com/wongminho">
+                            <i class="fa fa-github fa-2x"></i></a>
+                    
+                        <a title="Weibo" target="_blank" href="//weibo.com/WongMinHo">
+                            <i class="fa fa-weibo fa-2x"></i></a>
+                    
+                        <a title="Twitter" target="_blank" href="//twitter.com/huangminhow">
+                            <i class="fa fa-twitter fa-2x"></i></a>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+      <div class="outer">
+        <section id="main" class="body-wrap"><article id="post-hexo项目部署" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="post-title" itemprop="name">
+      hexo项目部署
+    </h1>
+    <div class="post-title-bar">
+      <ul>
+          
+        <li>
+          <i class="fa fa-calendar"></i>  2018-07-25
+        </li>
+        <li>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_value_page_pv"></span>
+        </li>
+      </ul>
+    </div>
+  
+
+          
+      </header>
+    
+    <div class="article-entry post-content" itemprop="articleBody">
+      
+            
+            <h1 id="github-相关设置"><a href="#github-相关设置" class="headerlink" title="github 相关设置"></a>github 相关设置</h1><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>安装包见群文件</p>
+<h2 id="新建ssh-key"><a href="#新建ssh-key" class="headerlink" title="新建ssh key"></a>新建ssh key</h2><p>1.在桌面右键选择git bash here<br>2.创建本地ssh key，输入如下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -c &quot;邮箱&quot;</span><br></pre></td></tr></table></figure></p>
+<p>回车，然后记录下ssh的默认保存路劲，<br>3.后续一路回车，知道出现很多泡沫<br>4.打开ssh默认保存路径，找到id-rsa.pub文件，复制里面的内容备用</p>
+<h2 id="注册github"><a href="#注册github" class="headerlink" title="注册github"></a>注册github</h2><p>1.打开<a href="https:www.github.com" target="_blank" rel="noopener">github</a>点击右上角sign up注册个人账号<br>2.点击头像右侧倒三角，悬着settings按钮<br>3.选择左侧ssh and gpk keys<br>4.点击右侧 添加ssh key按钮<br>  title素以，下方粘贴创建好的ssh key<br>5.点击下方creat ssh按钮</p>
+<h2 id="验证ssh-key"><a href="#验证ssh-key" class="headerlink" title="验证ssh key"></a>验证ssh key</h2><p>1.命令行输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
+<p>回车，如果是第一次的会提示是否成功continue，输入yes就会看到：you ve successfully 就表示已经成功连上github<br>2.验证github用户名<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user。name &quot;用户名&quot;</span><br></pre></td></tr></table></figure></p>
+<p>3.验证邮箱<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;邮箱&quot;</span><br></pre></td></tr></table></figure></p>
+<h2 id="测试本地链接github"><a href="#测试本地链接github" class="headerlink" title="测试本地链接github"></a>测试本地链接github</h2><p>1.点击github主页头像左侧+，选择new repository<br>2.创建一个仓库，取名随意比如abc<br>3.创建成功后，复制提示代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# abc&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br></pre></td></tr></table></figure></p>
+<p>4.在桌面创建任意文件夹，并打开<br>5.右键git bush here<br>6.右键past刚才复制的代码回车<br>7.根据提示登录github账号<br>8.个别情况需要在命令行窗口验证github用户名<br>9.刷新github的abc仓库，如果本地文件存在，证明链接无误<br>  否则删除文件夹内的所有文件，重复步骤4~8</p>
+<h1 id="推送本地博客到github"><a href="#推送本地博客到github" class="headerlink" title="推送本地博客到github"></a>推送本地博客到github</h1><h2 id="配置hexo的-config。yml文件"><a href="#配置hexo的-config。yml文件" class="headerlink" title="配置hexo的-config。yml文件"></a>配置hexo的-config。yml文件</h2><p>1.打开博客项目根目录的-config.yml文件<br>2.在文件底部配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/mkk123456789/mkk123456789.github.io</span><br></pre></td></tr></table></figure></p>
+<p>并且保存<br>3.安装deploy依赖包（仅需操作一次）<br>在blog所在路径依次输入如下命令回车<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>4.添加域名解析文件<br>在vscode工具里面，选中更目录的source文件，右键悬着新建文件（new file），取名位CNAME，打开该文件，填入自己的域名，不带www也不带http，如：baidu，com保存即可</p>
+<p>5.在blog所在路径一次输入如下命令<br>清除缓存<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure></p>
+<p>编译博客文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure></p>
+<p>上传代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><p>1.打开i阿里云域名控制中心<br>2.选中自己购买的域名，，点击右侧解析<br>3.删除已有的解析记录值<br>4.点击新建按钮添加三条记录值</p>
+<table>
+<thead>
+<tr>
+<th>记录类型</th>
+<th>主机记录</th>
+<th>解析线路</th>
+<th>记录值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CNAME</td>
+<td>WWW</td>
+<td>默认</td>
+<td>用户名。github.io</td>
+</tr>
+<tr>
+<td>A</td>
+<td>@</td>
+<td>默认</td>
+<td>192.30.252.153</td>
+</tr>
+<tr>
+<td>A</td>
+<td>@</td>
+<td>默认</td>
+<td>192.30.252.154</td>
+</tr>
+</tbody>
+</table>
+
+            <div class="post-copyright">
+    <div class="content">
+        <p>最后更新： 2018年07月25日 16:50</p>
+        <p>原始链接： <a class="post-url" href="/2018/07/25/hexo项目部署/" title="hexo项目部署">http://yoursite.com/2018/07/25/hexo项目部署/</a></p>
+        <footer>
+            <a href="http://yoursite.com">
+                <img src="/images/logo.png" alt="rgaiming">
+                rgaiming
+            </a>
+        </footer>
+    </div>
+</div>
+
+      
+        
+            
+<div class="page-reward">
+    <a id="rewardBtn" href="javascript:;">赏</a>
+</div>
+
+<div id="reward" class="post-modal reward-lay">
+    <a class="close" href="javascript:;" id="reward-close">×</a>
+    <span class="reward-title">
+        <i class="icon icon-quote-left"></i>
+        请我吃糖~
+        <i class="icon icon-quote-right"></i>
+    </span>
+    <div class="reward-content">
+        
+        <div class="reward-code">
+            <img id="rewardCode" src="/images/wechat_code.jpg" alt="打赏二维码">
+        </div>
+        <div class="reward-select">
+            
+            <label class="reward-select-item checked" data-id="wechat" data-wechat="/images/wechat_code.jpg">
+                <img class="reward-select-item-wechat" src="/images/wechat.png" alt="微信">
+            </label>
+            
+            
+            <label class="reward-select-item" data-id="alipay" data-alipay="/images/alipay_code.jpg">
+                <img class="reward-select-item-alipay" src="/images/alipay.png" alt="支付宝">
+            </label>
+            
+        </div>
+    </div>
+</div>
+
+
+        
+    </div>
+    <footer class="article-footer">
+        
+        
+<div class="post-share">
+    <a href="javascript:;" id="share-sub" class="post-share-fab">
+        <i class="fa fa-share-alt"></i>
+    </a>
+    <div class="post-share-list" id="share-list">
+        <ul class="share-icons">
+          <li>
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://yoursite.com/2018/07/25/hexo项目部署/&title=《hexo项目部署》 — RG_aiming&pic=http://yoursite.comimages/logo.png" data-title="微博">
+              <i class="fa fa-weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="weixin share-sns" id="wxFab" href="javascript:;" data-title="微信">
+              <i class="fa fa-weixin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://yoursite.com/2018/07/25/hexo项目部署/&title=《hexo项目部署》 — RG_aiming&source=" data-title="QQ">
+              <i class="fa fa-qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/07/25/hexo项目部署/" data-title="Facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《hexo项目部署》 — RG_aiming&url=http://yoursite.com/2018/07/25/hexo项目部署/&via=http://yoursite.com" data-title="Twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://yoursite.com/2018/07/25/hexo项目部署/" data-title="Google+">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+     </div>
+</div>
+<div class="post-modal wx-share" id="wxShare">
+    <a class="close" href="javascript:;" id="wxShare-close">×</a>
+    <p>扫一扫，分享到微信</p>
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://yoursite.com/2018/07/25/hexo项目部署/" alt="微信分享二维码">
+</div>
+
+<div class="mask"></div>
+
+        
+        <ul class="article-footer-menu">
+            
+            
+        </ul>
+        
+    </footer>
+  </div>
+</article>
+
+
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#github-相关设置"><span class="post-toc-text">github 相关设置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装git"><span class="post-toc-text">安装git</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#新建ssh-key"><span class="post-toc-text">新建ssh key</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注册github"><span class="post-toc-text">注册github</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#验证ssh-key"><span class="post-toc-text">验证ssh key</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#测试本地链接github"><span class="post-toc-text">测试本地链接github</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#推送本地博客到github"><span class="post-toc-text">推送本地博客到github</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配置hexo的-config。yml文件"><span class="post-toc-text">配置hexo的-config。yml文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#域名解析"><span class="post-toc-text">域名解析</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+    
+
+<nav id="article-nav">
+  
+  
+    <a href="/2018/07/24/搭建个人博客教程/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">搭建个人博客教程</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
+
+
+
+    
+</section>
+        
+      </div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+<p>
+    <span id="busuanzi_container_site_uv" style='display:none'>
+        总访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
+    <span id="busuanzi_container_site_pv" style='display:none'>
+        总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+</p>
+
+
+      <p>
+        Powered by  <a href="http://hexo.io/" target="_blank">Hexo</a>
+        Theme <a href="//github.com/wongminho/hexo-theme-miho" target="_blank">MiHo</a>
+      &copy; 2018 rgaiming<br>
+      </p>
+    </div>
+  </div>
+</footer>
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var mihoConfig = {
+      root: "http://yoursite.com",
+      animate: true,
+      isHome: false,
+      share: true,
+      reward: 1
+  }
+</script>
+<div class="sidebar">
+    <div id="sidebar-search" title="Search">
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="sidebar-category" title="Categories">
+        <i class="fa fa-book"></i>
+    </div>
+    <div id="sidebar-tag" title="Tags">
+        <i class="fa fa-tags"></i>
+    </div>
+    <div id="sidebar-top">
+        <span class="sidebar-top-icon"><i class="fa fa-angle-up"></i></span>
+    </div>
+</div>
+<div class="sidebar-menu-box" id="sidebar-menu-box">
+    <div class="sidebar-menu-box-container">
+        <div id="sidebar-menu-box-categories">
+            
+        </div>
+        <div id="sidebar-menu-box-tags">
+            
+        </div>
+    </div>
+    <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
+</div>
+<div class="mobile-header-menu-nav" id="mobile-header-menu-nav">
+    <div class="mobile-header-menu-container">
+        <span class="title">Menus</span>
+        <ul class="mobile-header-menu-navbar">
+            
+            <li>
+                <a  href="/">
+                    <i class="fa fa-home"></i><span>主页</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/archives">
+                    <i class="fa fa-archive"></i><span>归档</span>
+                </a>
+            </li>
+            
+            <li>
+                <a  href="/about">
+                    <i class="fa fa-user"></i><span>关于</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="mobile-header-tag-container">
+        <span class="title">Tags</span>
+        <div id="mobile-header-container-tags">
+            
+        </div>
+    </div>
+</div>
+<div class="search-wrap">
+    <span class="search-close">&times;</span>
+        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
+            <i class="icon icon-lg icon-chevron-left"></i>
+        </a>
+        <input class="search-field" placeholder="Search..." id="keywords">
+        <a id="search-submit" href="javascript:;">
+            <i class="fa fa-search"></i>
+        </a>
+    <div class="search-container" id="search-container">
+        <ul class="search-result" id="search-result">
+        </ul>
+    </div>
+</div>
+
+<div id="search-tpl">
+    <li class="search-result-item">
+        <a href="{url}" class="search-item-li">
+            <span class="search-item-li-title" title="{title}">{title}</span>
+        </a>
+    </li>
+</div>
+<script src="/js/search.js"></script>
+<script src="/js/main.js"></script>
+
+
+  <script src="//cdn.bootcss.com/particles.js/2.0.0/particles.min.js"></script>
+  <div id="particles"></div>
+  <script src="/js/particles.js"></script>
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  <script src="//cdn.bootcss.com/scrollReveal.js/3.0.5/scrollreveal.js"></script>
+  <script src="/js/animate.js"></script>
+
+
+  <script src="/js/pop-img.js"></script>
+  <script>
+     $(".article-entry p img").popImg();
+  </script>
+
+  </div>
+</body>
+</html>

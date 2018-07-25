@@ -78,4 +78,6 @@ theme: hexo-theme-miho-master
 # Deployment 项目部署
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/mkk123456789/mkk123456789.github.io
+
